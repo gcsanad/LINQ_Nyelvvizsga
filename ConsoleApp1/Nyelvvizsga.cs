@@ -20,7 +20,7 @@ namespace ConsoleApp1
             sikeres = new List<int>();
             sikertelen = new List<int>();
             osszesitve = new List<int>();
-            for (int index = 0; index < elso.Length; index++)
+            for (int index = 1; index < elso.Length; index++)
             {
                 sikeres.Add(Convert.ToInt32(elso[index]));
                 sikertelen.Add(Convert.ToInt32(masodik[index]));
